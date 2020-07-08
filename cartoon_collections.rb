@@ -1,7 +1,6 @@
 def square_array(array)
-  array.map{|a| a ** 2}
-  # Use an Enumerable to square every element in the passed in array
-  # Return a new array of the results
+  na=array.map{|a| a ** 2}
+  return na
 end
 
 def summon_captain_planet(planeteer_calls)
