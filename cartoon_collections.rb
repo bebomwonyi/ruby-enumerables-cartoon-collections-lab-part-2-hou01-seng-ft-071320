@@ -12,6 +12,6 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  s = planeteer_calls.find {|a| a == valid_calls[a.length]}
+  s = planeteer_calls.find {|a| a[a.length] == valid_calls}
   return s
 end
