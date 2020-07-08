@@ -1,9 +1,9 @@
 def square_array(array)
-  na=array.map{|a| a ** 2}
-  return na
+  array.map{|a| a ** 2}
 end
 
 def summon_captain_planet(planeteer_calls)
+  array.map{|a|a.title}
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 end
