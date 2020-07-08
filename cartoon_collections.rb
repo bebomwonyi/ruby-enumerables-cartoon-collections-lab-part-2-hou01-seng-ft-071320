@@ -3,9 +3,8 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  array.map{|a| "#{a.capitalize}!"}
-  # Use an Enumerable to capitalize and add '!' to every element in the passed in array
-  # Return a new array of the results
+  aa=array.map{|a| "#{a.capitalize}!"}
+  return aa
 end
 
 def long_planeteer_calls(planeteer_calls)
